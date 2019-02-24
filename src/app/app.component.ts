@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: 'app works'
+  template: '<router-outlet></router-outlet>'
 })
 export class AppComponent {
   public title = 'chattycord-manager';
